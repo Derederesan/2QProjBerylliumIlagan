@@ -1,0 +1,243 @@
+<DOCTYPE html>
+
+<html>
+
+<head>
+
+     <title>Homepage </title>
+	 
+	<meta charset="UTF-8">
+	<meta name="author" content="Alexie Ilagan">
+	<meta name="keywords" content="HTML">
+	<meta name="revised" content="11-06-2021">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+*{
+		font-family: trebuchet MS;
+}
+.upper{
+	float:left;
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+	padding-bottom:50px;
+}
+.upper>div{
+	display:inline-block;
+}
+.upper a{
+	display:block;
+	transform:translate(-100px,50px);
+	text-decoration:none;
+	color:black;
+	font-size:25px;
+	float:right;
+	padding-left:30px;
+}
+#logo{
+	transform:translate(100px,0px);
+	
+}
+#site{
+		padding-top:100px;
+		text-align:center;
+		font-size:40px;
+}
+hr{
+	transform: translate(0px, 0px);
+	clear:left;
+	margin-left: 100px;
+	margin-right: 80px;
+}
+
+#reference{
+	position: relative;
+	display:block;
+	color:black;
+}
+#reference div{
+
+	display:none;
+}
+#reference:hover div{
+	position:absolute;
+	top:200px;
+	left:150px;
+	text-align:center;
+	display:block;
+	color:white;
+	background-color:#7697a0;
+	padding:10px;
+}
+#reference:active div{
+	background-color:#4a707a;
+}
+
+#study{
+	height: 300px;
+	width: 300px;
+	float:left;
+	border:5px solid black;
+	margin: 50px 50px 50px 100px;
+}
+
+#lorem{
+	transform:translate(20px,50px);
+	font-size:20px;
+	text-align:justify;
+	font-style:italic;
+	width:90%;
+}
+#youtube{
+	float:right;
+	position:relative;
+	top:50px;
+	left:-30px;
+	padding-right:150px;
+	padding-top: 180px;
+}
+
+#links{
+	float:left;
+	margin-left:100px;
+	text-align:center;
+	transition: 0.5s;
+}
+.rectangle{
+	background-color: #4A707A;
+	border-radius: 30px;
+	padding:15px;
+	color:white;
+	text-decoration: none;
+	font-size: 40px;
+}
+#links a{
+	display:block;
+	margin-bottom:30px;
+	transition: 0.5s;
+}
+#links a:hover{
+	transform:translate(0px,-10px);
+	transition: 0.5s;
+}
+
+#footer{
+padding-top:150px;
+	clear:both;
+	transform:translate(500px,0);
+
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+			
+}
+li{
+	float:left;
+	padding:8px;
+	text-decoration:none;
+
+}
+li a{
+	display:inline-block;
+	padding:8px;
+	background-color:
+	text-decoration:none;
+	width:150px;
+	transition: 0.5s;
+}
+li a:hover{
+	transform:translate(0,-10px);
+	transition: 0.5s;
+}
+#sprite1{
+	background: url('../images/image.png') no-repeat 0px -30px;
+	width: 23px;
+	height: 32px;
+	
+}
+#sprite2{
+	background: url('../images/image.png') no-repeat -391px -30px;
+	width: 23px;
+	height: 32px;
+
+}#sprite3{
+	background: url('../images/image.png') no-repeat -391px -30px;
+	width: 23px;
+	height: 32px;
+
+}#sprite4{
+	background: url('../images/image.png') no-repeat -391px -30px;
+	width: 23px;
+	height: 32px;
+
+}#sprite5{
+	background: url('../images/image.png') no-repeat -391px -30px;
+	width: 23px;
+	height: 32px;
+
+}
+
+a div{
+display:none;
+text-decoration:none;
+}
+a:hover div{
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	color:black;
+	transform:translate(-90px,-50px);
+	width:200px;
+}
+</style>
+</head>
+
+<body>
+
+	   <div class="upper">
+			<div >
+				<img id="logo" src="../images/Logo.png" height=110px width=110px alt="this is a logo picture">
+			</div>
+			<a href="references.html">CODE REFERENCES</a>
+			<a href="videos.html">VIDEOS USED</a>
+			<a href="#footer">ABOUT</a>
+		</div>
+			<h1 id="site">Gamification: An online school guide</h1>	
+			<a id="reference" href="https://www.pinterest.ph/pin/2603712274871056">
+				<div>Click to see reference!</div>
+				<img src="../images/green.jpg" alt="this is a study picture" id="study">
+			</a>
+			<p id="lorem">In our fast paced world, its not hard to fall behind. That's why its important to know more about ways to improve certain aspects of your life such as managing your time, optimizing your focus, preventing procrastination and avoiding burnout. With enough information and the right mindset, you can be able to control these factors and get more things done. "You do not rise to the level of your goals, you fall to the level of your systems"-james clear</p>
+			<iframe id="youtube"width="560" height="315" src="https://www.youtube.com/embed/VcT8puLpNKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<div id="links">
+			<a class="rectangle"href="focus.html">Focus</a>
+			<a class="rectangle"href="procrastination.html">Procrastination</a>
+			<a class="rectangle"href="burnout.html">Burnout</a>
+			<a class="rectangle"href="time.html">Time</a>
+		</div>
+		<div id="footer">
+		<ul>
+			<li><a id="sprite1"href="https://web.facebook.com/alexie.ilagan.7" src="../images/image.png">
+				<div>My facebook</div>
+			</li></a>
+			<li><a id="sprite2" href="https://www.youtube.com/c/Thomasfrank"src="../images/image.png">
+				<div >Thomas Frank</div>
+			</li></a>
+			<li><a id="sprite3" href="https://www.youtube.com/c/ArataAcademyENGLISH"src="../images/image.png">
+				<div >Arata Academy</div>
+			</li></a>
+			<li><a id="sprite4" href="https://www.youtube.com/c/ArcherNewton" src="../images/image.png">
+				<div >Archer Newton</div>
+			</li></a>
+			<li><a id="sprite5" href="https://www.youtube.com/c/AnasNuurAli" src="../images/image.png">
+				<div >Anas Nuur Ali</div>
+			</li></a>
+		</ul>
+		</div>
+     </body>
+
+</html>
